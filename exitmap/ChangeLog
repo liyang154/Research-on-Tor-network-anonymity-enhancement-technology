@@ -1,0 +1,29 @@
+2020-11-23: Changes in version 2020-11-23:
+	- Thanks to Kushal Das, the code base is now Python 3.
+
+2019-05-30: Changes in version 2019-05-30:
+	- Resemble HTTP headers of latest Tor Browser.
+	- Code maintenance.
+	- Update documentation.
+
+2016-04-21: Changes in version 2016.04.21:
+	- Add command line option '-E' for file containing exit fingerprints.
+	- Add command line option '-n' for random delays between circuit creations.
+	- Add username to data directory, allowing multiple users on a single
+	  machine to run exitmap in parallel.
+	- Make dnspoison module populate its A records automatically.
+	- Add cloudflared module to check if a site is behind CloudFlare.
+	- Add rtt module to measure round-trip times from an exit to a destination.
+	  Thanks to Zack Weinberg for the code.
+	- Add dnssec module to check if an exit relay validates DNSSEC.
+	- Improved logging now shows module names and Stem's log messages.
+	- Add command line option '-o' to log to file.
+
+2015-08-23: Changes in version 2015.08.23:
+	- Exclude bad exits by default when selecting exit relays.
+	- Pass torifying execution environments to modules.
+	- Set PathsNeededToBuildCircuits to 0.95.
+	- Replace mysocks/SocksiPy with home-made torsocks.
+
+2015-04-06: Changes in version 2015.04.06:
+	- Publish first release.

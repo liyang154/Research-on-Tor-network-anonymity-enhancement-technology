@@ -1,0 +1,4 @@
+*.pyc
+.coverage
+venv/
+__pycache__
